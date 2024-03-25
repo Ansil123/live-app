@@ -1,0 +1,219 @@
+/* Default styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#one {
+  margin-left: 1100px; /* This might need adjustment for responsiveness */
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  color: white;
+}
+
+#img1 {
+  width: 100%;
+  height: 700px;
+}
+
+.first {
+  position: relative;
+  text-align: center;
+  color: wheat;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  color: brown;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+h1 {
+  color: brown;
+}
+
+h6 {
+  color: brown;
+}
+
+a {
+  color: white;
+}
+
+#second {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(0, 100, 0, 0.918);
+  color: bisque;
+}
+
+#second h1 {
+  padding-top: 150px;
+}
+
+#kk {
+  color: black;
+  font-size: medium;
+  font-weight: 100;
+}
+
+.row {
+  height: 400px;
+}
+
+.col-3 {
+  margin-left: px;
+}
+
+h2 {
+  margin: 10px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 466px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255, 68, 0, 0.529);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#ss {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(33, 30, 30);
+}
+
+#row1 {
+  padding-bottom: 20px;
+}
+
+#row1 .col-4 img {
+  width: 100%;
+  height: 300px;
+}
+
+.row h1 {
+  padding-top: 10px;
+}
+
+#ss {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(33, 30, 30);
+}
+
+#contact {
+  width: 100%;
+  height: 600px;
+}
+
+#contact,
+h2,
+p {
+  text-align: center;
+}
+
+#form input {
+  width: 350px;
+  margin-left: 38%;
+  margin-bottom: 10px;
+}
+
+#form button {
+  border-radius: 30px;
+  width: 300px;
+  border: 0;
+  height: 40px;
+  background-color: rgba(255, 68, 0, 0.836);
+  color: white;
+}
+
+#form button:hover {
+  background-color: black;
+  color: white;
+}
+
+#pp {
+  height: 80px;
+}
+
+bt1 {
+  background-color: green;
+}
+
+#twoo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: 300;
+}
+
+#btn2 {
+  margin-left: 690px;
+  background-color: coral;
+  border-radius: 80px;
+}
+
+/* Media Queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+  /* Adjust styles for screens up to 768px in width */
+
+  #one {
+      margin-left: 10px; /* Adjust margin for smaller screens */
+  }
+
+  #form input {
+      width: 100%; /* Make input fields full width */
+      margin-left: 0; /* Reset margin */
+  }
+
+  #form button {
+      width: 100%; /* Make button full width */
+      margin-left: 0; /* Reset margin */
+  }
+
+  #btn2 {
+      margin-left: 10px; /* Adjust margin for better positioning */
+      width: 100%; /* Make button full width */
+      border-radius: 10px; /* Adjust border radius for better appearance */
+  }
+}
